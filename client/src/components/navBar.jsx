@@ -11,7 +11,7 @@ import { createBrowserRouter, RouterProvider, Outlet, Navigate, Link } from "rea
 function NavBar() {
 
     return (
-        <nav className='h-20 flex items-center border-b border-gray-300'>
+        <nav className='h-20 flex items-center border-b border-gray-300 sticky top-0 bg-white'>
             <div className='flex justify-between items-center w-full mx-10 m-auto'>
                 <div className='flex items-center gap-7'>
                     <Link to='/'>
@@ -20,15 +20,19 @@ function NavBar() {
                     <HomeOutlinedIcon />
                     <DarkModeOutlinedIcon />
                     <GridViewOutlinedIcon />
-                    <span className='border border-gray-300'>
+                    <span className='border border-gray-300 rounded-md px-3'>
                         <SearchOutlinedIcon />
-                        <input type="search" placeholder='Search' className='p-2 w' />
+                        <input type="search" placeholder='Search' className='p-2 w-[500px]' />
                     </span>
                 </div>
-                <div className='flex gap-7'>
+                <div className='flex items-center gap-7'>
                     <AccountCircleOutlinedIcon />
                     <EmailOutlinedIcon />
                     <NotificationsNoneOutlinedIcon />
+                    <div className='flex items-center gap-3'>
+                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <span>Jhon Mickle</span>
+                    </div>
                 </div>
             </div>
         </nav>
