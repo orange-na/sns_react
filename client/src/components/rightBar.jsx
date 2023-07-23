@@ -8,7 +8,7 @@ function RightBar() {
                     <p>Suggestions For You</p>
                     <div className='flex items-center justify-between gap-3'>
                         <div className="flex gap-3 items-center">
-                            <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                            <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                             <span>Jhon Mickle</span>
                         </div>
                         <div className="flex gap-3">
@@ -18,7 +18,7 @@ function RightBar() {
                     </div>
                     <div className='flex items-center justify-between gap-3'>
                         <div className="flex gap-3 items-center">
-                            <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                            <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                             <span>Jhon Mickle</span>
                         </div>
                         <div className="flex gap-3">
@@ -28,7 +28,7 @@ function RightBar() {
                     </div>
                     <div className='flex items-center justify-between gap-3'>
                         <div className="flex gap-3 items-center">
-                            <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                            <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                             <span>Jhon Mickle</span>
                         </div>
                         <div className="flex gap-3">
@@ -42,7 +42,7 @@ function RightBar() {
                     <p>Latest Activeites</p>
                     <div className='flex items-center justify-between gap-3'>
                         <div className="flex gap-3 items-center">
-                            <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                            <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                             <span>Jhon Mickle</span> 
                         </div>
                         <div className="flex gap-3">
@@ -52,7 +52,7 @@ function RightBar() {
                     </div>
                     <div className='flex items-center justify-between gap-3'>
                         <div className="flex gap-3 items-center">
-                            <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                            <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                             <span>Jhon Mickle</span> 
                         </div>
                         <div className="flex gap-3">
@@ -62,7 +62,7 @@ function RightBar() {
                     </div>
                     <div className='flex items-center justify-between gap-3'>
                         <div className="flex gap-3 items-center">
-                            <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                            <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                             <span>Jhon Mickle</span> 
                         </div>
                         <div className="flex gap-3">
@@ -72,7 +72,7 @@ function RightBar() {
                     </div>
                     <div className='flex items-center justify-between gap-3'>
                         <div className="flex gap-3 items-center">
-                            <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                            <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                             <span>Jhon Mickle</span> 
                         </div>
                         <div className="flex gap-3">
@@ -86,35 +86,35 @@ function RightBar() {
                     <p>Online Friends</p>
                     <div className='flex items-center gap-3'>
                         <div className="relative">
-                            <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                            <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                             <div className="w-3 h-3 bg-green-500 rounded-full absolute top-0 right-0"></div>
                         </div>
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
                         <div className="relative">
-                            <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                            <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                             <div className="w-3 h-3 bg-green-500 rounded-full absolute top-0 right-0"></div>
                         </div>
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
                         <div className="relative">
-                            <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                            <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                             <div className="w-3 h-3 bg-green-500 rounded-full absolute top-0 right-0"></div>
                         </div>
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
                         <div className="relative">
-                            <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                            <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                             <div className="w-3 h-3 bg-green-500 rounded-full absolute top-0 right-0"></div>
                         </div>
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
                         <div className="relative">
-                            <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                            <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                             <div className="w-3 h-3 bg-green-500 rounded-full absolute top-0 right-0"></div>
                         </div>
                         <span>Jhon Mickle</span>

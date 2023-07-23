@@ -11,7 +11,7 @@ import { createBrowserRouter, RouterProvider, Outlet, Navigate, Link } from "rea
 function NavBar() {
 
     return (
-        <nav className='h-20 flex items-center border-b border-gray-300 sticky top-0 bg-white'>
+        <nav className='h-20 flex items-center border-b border-gray-300 sticky top-0 bg-white z-10'>
             <div className='flex justify-between items-center w-full mx-10 m-auto'>
                 <div className='flex items-center gap-7'>
                     <Link to='/'>

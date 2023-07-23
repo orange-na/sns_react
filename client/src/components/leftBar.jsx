@@ -6,23 +6,23 @@ function LeftBar() {
             <div>
                 <div className="flex flex-col gap-5 border-b border-gray-300 py-5">
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                 </div>
@@ -30,23 +30,23 @@ function LeftBar() {
                 <div className="flex flex-col gap-5 border-b border-gray-300 py-5">
                     <p>your interesting</p>
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                 </div>
@@ -54,23 +54,23 @@ function LeftBar() {
                 <div className="flex flex-col gap-5 border-b border-gray-300 py-5">
                     <p>Ohters</p>
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <span>Jhon Mickle</span>
                     </div>
                 </div>

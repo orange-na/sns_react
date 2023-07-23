@@ -8,21 +8,21 @@ function Posts() {
             userId: 1,
             profilePic: 'img/Login-bg.jpg',
             desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, unde.',
-            img: 'img/story.jpg',
+            img: '/img/story.jpg',
         },
         {
             id: 'Jhon Micle',
             userId: 2,
             profilePic: 'img/Login-bg.jpg',
             desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, unde.',
-            img: 'img/story.jpg',
+            img: '/img/story.jpg',
         },
         {
             id: 'Jhon Micle',
             userId: 3,
             profilePic: 'img/Login-bg.jpg',
             desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, unde.',
-            img: 'img/story.jpg',
+            img: '/img/story.jpg',
         }
     ]
 

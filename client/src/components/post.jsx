@@ -35,7 +35,7 @@ function Post(props) {
             <div className='flex flex-col gap-5'>
                 <div className='flex items-center justify-between gap-3'>
                     <div className='flex'>
-                        <img src="img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
+                        <img src="/img/Login-bg.jpg" alt="" className='object-cover w-12 h-12 rounded-full' />
                         <Link to={ `/profile/${ props.post.userId }` }>
                             <div className="flex justify-center flex-col text-base ml-3">
                                 <span>Jhon Mickle</span>
