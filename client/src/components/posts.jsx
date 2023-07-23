@@ -30,7 +30,7 @@ function Posts() {
         <div>
             {posts.map((post) => {
                 return (
-                    <Post post={ post } key={ post.id }/>
+                    <Post post={ post } key={ post.userId }/>
                 )
             })}
         </div>
