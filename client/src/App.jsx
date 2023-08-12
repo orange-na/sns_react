@@ -1,16 +1,21 @@
 import NavBar from "./components/NavBar";
 import LeftBar from "./components/leftBar";
 import RightBar from "./components/rightBar";
-import Login from "./pages/Login"
+import Login from "./pages/Login";
 import Profile from "./pages/Profile";
 import Home from "./pages/Home";
-import Register from "./pages/Register"
-import { createBrowserRouter, RouterProvider, Outlet, Navigate } from "react-router-dom";
-
+import Register from "./pages/Register";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Outlet,
+  Navigate,
+} from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "../context/authContext";
 
 function App() {
-
-  const currentUser = true;
+  const currentUser = useContext(AuthContext);
 
   const Layout = () => {
     return (
@@ -22,34 +27,34 @@ function App() {
           <RightBar />
         </div>
       </div>
-    )
-  }
+    );
+  };
 
-  const ProtectedRouter = ({children}) => {
-    if(!currentUser){
-      return <Navigate to='/login' />
+  const ProtectedRouter = ({ children }) => {
+    if (!currentUser) {
+      return <Navigate to="/login" />;
     }
-    return children
-  }
+    return children;
+  };
 
   const router = createBrowserRouter([
     {
       path: "/",
       element: (
-          <ProtectedRouter >
-            <Layout />
-          </ProtectedRouter >),
+        <ProtectedRouter>
+          <Layout />
+        </ProtectedRouter>
+      ),
       children: [
         {
-          path: '/',
-          element: <Home />
+          path: "/",
+          element: <Home />,
         },
         {
-          path: '/profile/:id',
-          element: <Profile />
+          path: "/profile/:id",
+          element: <Profile />,
         },
-        
-      ]
+      ],
     },
     {
       path: "/login",
@@ -65,8 +70,7 @@ function App() {
     <div>
       <RouterProvider router={router} />
     </div>
-
-  )
+  );
 }
 
-export default App
+export default App;

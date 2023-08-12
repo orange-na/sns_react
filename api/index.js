@@ -10,9 +10,18 @@ const cors = require("cors");
 require("dotenv").config();
 const app = express();
 const PORT = 8800;
+const corsOptions = {
+  origin: "http://localhost:5173",
+  credential: true,
+};
+
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Credentials", true);
+  next();
+});
 
 app.use(express.json());
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(cookieParser());
 
 app.get("/", (req, res) => {

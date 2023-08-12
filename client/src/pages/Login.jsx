@@ -1,6 +1,33 @@
-import { Link } from "react-router-dom";
+import { useContext, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../context/authContext";
 
 function Login() {
+  const { login } = useContext(AuthContext);
+  const navigate = useNavigate();
+
+  const [inputs, setInputs] = useState({
+    username: "",
+    password: "",
+  });
+
+  const [err, setErr] = useState();
+
+  const handleChanged = (e) => {
+    setInputs((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+    console.log(inputs);
+  };
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+    try {
+      login(inputs);
+      navigate("/");
+    } catch (error) {
+      setErr(error);
+    }
+  };
+
   return (
     <div className="bg-purple-300 w-screen h-screen flex justify-center items-center">
       <div className="flex max-w-7xl">
@@ -23,15 +50,22 @@ function Login() {
           <form action="" className="flex flex-col gap-14">
             <input
               type="text"
+              name="username"
               placeholder="Username"
               className="block border-b border-gray-300 py-4 w-full"
+              onChange={handleChanged}
             />
             <input
               type="password"
+              name="password"
               placeholder="Password"
               className="block border-b border-gray-300 py-4 w-full"
+              onChange={handleChanged}
             />
-            <button className="bg-purple-500 text-white w-1/2 py-4 px-8">
+            <button
+              className="bg-purple-500 text-white w-1/2 py-4 px-8"
+              onClick={handleLogin}
+            >
               Login
             </button>
           </form>

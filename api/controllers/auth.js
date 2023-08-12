@@ -7,7 +7,7 @@ const register = (req, res) => {
   const q = "SELECT * FROM users WHERE email = $1";
   pool.query(q, [req.body.email], (err, data) => {
     if (err) return res.json(err);
-    if (data.rows.length) return res.json("User already exists!!");
+    if (data.rows.length) return res.status(400).json("User already exists!!");
     //   if user dose't exist, create user
     //   hash the password
     const salt = bcrypt.genSaltSync(10);
